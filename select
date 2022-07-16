@@ -1,0 +1,12 @@
+--SELECT * FROM Products
+
+SELECT ProductID,ProductName,UnitPrice from Products
+
+-- CategoryID,QuantityPerUnit,ReorderLevel  ı başa alarak tabloyu sıralama
+select  CategoryID,QuantityPerUnit,ReorderLevel, * from Products
+
+-- order by asc dersen alfabetik sıralar hiçbir şey yazmasan da aynı anlama gelir.desc tersten sıralar
+select* from Products order by ProductName desc
+
+--2 dersen productname e göre sıralar 3 dersen supplierıd e göre 4 dersen CategoryID
+select* from Products order by 3
