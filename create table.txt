@@ -1,0 +1,8 @@
+use TestDb
+
+create table Categories
+(
+ID int Primary key identity (1,1) not null,
+CategoryName nvarchar(50) not null,
+Description nvarchar(max)
+)
