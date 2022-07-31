@@ -1,0 +1,11 @@
+Create Index INDX_CATID on Products(CategoryId)
+Create Index INDX_ProductName on Products(ProductName)
+
+--Create Table Employees
+Create Table Employees
+(
+ID int not null PRIMARY KEY IDENTITY(1,1),
+FirstName  nvarchar(50) not null ,
+SecondName nvarchar(50),
+LastName nvarchar(50) not null,
+Email nvarchar(50) not null
