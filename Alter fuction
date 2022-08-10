@@ -1,0 +1,2 @@
+Alter Procedure GetProductById @ProductId int, @ProductName nvarchar(30) as select * from Products where ProductID=@ProductId AND ProductName=@ProductName
+ Exec  GetProductById @ProductId=1, @ProductName='Chai'
