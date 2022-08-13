@@ -1,0 +1,3 @@
+SELECT* FROM Products WHERE ProductName ='Chai'
+--C ile başlayan ürünler
+SELECT* FROM Products WHERE ProductName like 'C%'
